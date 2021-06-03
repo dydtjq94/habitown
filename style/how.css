@@ -1,0 +1,42 @@
+.how__dis__wrap {
+  background-color: #ddffef;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 160px 0;
+}
+
+.how__title {
+  font-size: 32px;
+
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+
+.how__des {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.how__des__column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how__des__img {
+  width: 240px;
+  margin-bottom: 40px;
+}
+
+.how__des__img img {
+  width: 100%;
+}
+
+.how__des__sub {
+  font-size: 20px;
+  text-align: center;
+}

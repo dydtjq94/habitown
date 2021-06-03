@@ -1,0 +1,29 @@
+.explore__dis__wrap {
+  background-color: #3dc89a;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 0;
+}
+
+.explore__title {
+  font-size: 30px;
+  margin-bottom: 80px;
+  font-weight: 700;
+}
+
+.explore__content__column {
+  display: flex;
+  width: 40%;
+}
+
+.explore__img {
+  width: 100%;
+  margin: 0 20px;
+}
+
+.explore__img img {
+  width: 100%;
+}
