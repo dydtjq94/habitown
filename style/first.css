@@ -13,7 +13,8 @@
 
 .first__align {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 
 .first__dis__left {
@@ -21,50 +22,69 @@
 }
 
 .first__dis__left img {
+  border-radius: 20px;
   width: 100%;
 }
 
 .first__dis__right {
   display: flex;
-  margin-left: 40px;
+
   flex-direction: column;
-  align-items: flex-start;
-  text-shadow: 0px 10px 20px rgba(50, 218, 140, 0.5);
+  align-items: center;
+  text-shadow: 0px 10px 20px rgba(81, 184, 222, 0.5);
 }
 
 .first__dis__title {
-  font-size: 80px;
+  font-size: 50px;
   color: white;
   font-weight: 700;
+  margin-top: 40px;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 .first__dis__sub {
-  font-size: 50px;
+  font-size: 20px;
   line-height: 50px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.first__dis__email__notice {
+  font-size: 20px;
+  color: rgb(238, 238, 238);
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.gform {
+  width: 70%;
 }
 
 .first__dis__input__wrap {
+  display: flex;
   width: 100%;
   margin-top: 16px;
 }
 
 .first__dis__input {
-  width: 70%;
+  width: 100%;
   margin-right: -4px;
   background-color: white;
   border: none;
   padding: 12px;
-  border: 1px solid #32da8c;
+  border: 1px solid #51b8de;
   border-radius: 4px 0 0 4px;
   outline: none;
 }
 
 .first__dis__submit {
   border-radius: 0px;
-  background-color: #32da8c;
+  background-color: #51b8de;
   padding: 13px;
   color: white;
   border: none;
@@ -73,4 +93,15 @@
 
 .first__dis__submit:hover {
   cursor: pointer;
+}
+
+.applying {
+  color: white;
+}
+
+.thankyou_message {
+  margin-top: 12px;
+  color: white;
+  margin-left: 6px;
+  font-weight: 700;
 }

@@ -1,5 +1,5 @@
 .entire__dis__wrap {
-  background-color: #3dc89a;
+  background-color: #51b8de;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
 .entire__left {
   display: flex;
   flex-direction: column;
-  width: 420px;
+  align-items: center;
   color: white;
 }
 
@@ -23,6 +23,8 @@
 
 .entire__sub {
   font-size: 20px;
+
+  text-align: center;
 }
 
 .entire__right {

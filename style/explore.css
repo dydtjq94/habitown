@@ -1,5 +1,5 @@
 .explore__dis__wrap {
-  background-color: #3dc89a;
+  background-color: #c8f0ff;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
   font-size: 30px;
   margin-bottom: 80px;
   font-weight: 700;
+  text-align: center;
 }
 
 .explore__content__column {
