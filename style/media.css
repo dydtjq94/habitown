@@ -28,16 +28,12 @@
   .first__dis__title {
     margin: 0 12px;
   }
-  .download__wrap {
-    display: flex;
-    flex-direction: column;
-  }
 
   .ios__img {
-    width: 200px;
+    width: 120px;
   }
 
   .google__img {
-    width: 200px;
+    width: 140px;
   }
 }
