@@ -41,18 +41,20 @@
                   placeholder="Email Address"
                   name="face_subemail"
                 />
-                <input
-                  class="first__dis__submit"
-                  type="submit"
-                  value="Join Beta"
-                />
+                <div class="submit__btn__wrap">
+                  <input
+                    class="first__dis__submit"
+                    type="submit"
+                    value="Join Beta"
+                  />
+                </div>
               </div>
               <div class="applying none" id="applying">
-                잠시만요, 신청중입니다!
+                Wait..
               </div>
               <div style="display: none;" class="thankyou_message" id="thx">
                 <h2 class="guide__m">
-                  Success! You've been added to the audience.
+                  Congratulations! You are now the leader of your town.
                 </h2>
               </div>
             </form>
@@ -308,6 +310,7 @@
     src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
   ></script>
   <script src="js/wow.min.js"></script>
+  <script src="js/submit.js"></script>
   <script>
     new WOW().init()
   </script>

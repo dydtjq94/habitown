@@ -30,7 +30,6 @@
 
 .first__dis__right {
   display: flex;
-
   flex-direction: column;
   align-items: center;
   text-shadow: 0px 10px 20px rgba(81, 184, 222, 0.5);
@@ -59,7 +58,6 @@
   font-size: 20px;
   color: rgb(238, 238, 238);
   margin-bottom: 30px;
-
   text-align: center;
 }
 
@@ -84,13 +82,19 @@
   outline: none;
 }
 
-.first__dis__submit {
+.submit__btn__wrap {
   border-radius: 0px;
   background-color: #51b8de;
   padding: 13px;
   color: white;
   border: none;
   border-radius: 0 4px 4px 0;
+}
+
+.first__dis__submit {
+  background: none;
+  border: none;
+  color: white;
 }
 
 .first__dis__submit:hover {
