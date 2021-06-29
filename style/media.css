@@ -24,4 +24,12 @@
   .gform {
     width: 90%;
   }
+
+  .ios__img {
+    width: 120px;
+  }
+
+  .google__img {
+    width: 140px;
+  }
 }

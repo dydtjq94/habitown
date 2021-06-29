@@ -117,3 +117,33 @@
   margin-left: 6px;
   font-weight: 700;
 }
+
+.download__wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.ios__img {
+  width: 180px;
+  margin-right: 20px;
+}
+.ios__img:hover {
+  cursor: pointer;
+}
+
+.ios__img img {
+  width: 100%;
+}
+
+.google__img {
+  width: 200px;
+  margin-left: 20px;
+}
+.google__img:hover {
+  cursor: pointer;
+}
+.google__img img {
+  width: 100%;
+}
