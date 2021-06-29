@@ -27,10 +27,6 @@
     width: 90%;
   }
 
-  .first__dis__title {
-    margin: 0 12px;
-  }
-
   .ios__img {
     width: 120px;
   }
@@ -39,6 +35,6 @@
     width: 140px;
   }
   .title__sub {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
