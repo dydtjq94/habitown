@@ -1,0 +1,27 @@
+@media screen and (max-width: 499px) {
+  .how__des {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .entire__dis__wrap {
+    background-color: #51b8de;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0;
+  }
+  .mobile__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .mobile__sub {
+    font-size: 16px;
+  }
+  .gform {
+    width: 90%;
+  }
+}

@@ -10,65 +10,84 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
-    <title>Habitown</title>
+    <title>Document</title>
   </head>
   <body>
     <div class="first__dis__wrap">
       <div class="first__dis wow fadeInUp">
         <div class="first__align">
           <div class="first__dis__left">
-            <img src="https://ifh.cc/g/y7bcTo.png" alt="" />
+            <img src="./img/icon.png" alt="" />
           </div>
           <div class="first__dis__right">
-            <div class="first__dis__title">Habitown</div>
+            <div class="first__dis__title">Habitown, coming soon</div>
             <div class="first__dis__sub">
-              Make it a habit to do, <br />Make your habitower
+              Build your own town with habits
             </div>
-            <div class="first__dis__input__wrap">
-              <input
-                class="first__dis__input"
-                type="text"
-                placeholder="Email address"
-              />
-              <input
-                class="first__dis__submit"
-                type="submit"
-                value="Join Beta"
-              />
+            <div class="first__dis__email__notice">
+              Add your email bellow and be the first to know when Habitown
+              Launch.
             </div>
+            <form
+              action="https://script.google.com/macros/s/AKfycbzMJEI0x4Mxzyfd2a5RNo-rh69KxHdtW-6Z2c-QEonOg6L5zso/exec"
+              class="gform"
+              method="POST"
+              data-email="example@email.net"
+            >
+              <div class="first__dis__input__wrap">
+                <input
+                  class="first__dis__input"
+                  type="email"
+                  placeholder="Email Address"
+                  name="face_subemail"
+                />
+                <input
+                  class="first__dis__submit"
+                  type="submit"
+                  value="Join Beta"
+                />
+              </div>
+              <div class="applying none" id="applying">
+                잠시만요, 신청중입니다!
+              </div>
+              <div style="display: none;" class="thankyou_message" id="thx">
+                <h2 class="guide__m">
+                  Success! You've been added to the audience.
+                </h2>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
 
     <div class="how__dis__wrap">
-      <div class="how__title wow fadeInUp">
+      <div class="how__title mobile__title wow fadeInUp">
         How to make your habits the most fun
       </div>
       <div class="how__des wow fadeInUp">
         <div class="how__des__column">
           <div class="how__des__img">
-            <img src="https://ifh.cc/g/dPmhYo.png" alt="" />
+            <img src="./img/construction.png" alt="" />
           </div>
-          <div class="how__des__sub">
-            Choose the habitower you want to create!
+          <div class="how__des__sub mobile__sub">
+            If you make a habit, you can build a building!
           </div>
         </div>
         <div class="how__des__column">
           <div class="how__des__img">
-            <img src="https://ifh.cc/g/tcXkTY.png" alt="" />
+            <img src="/img/build.png" alt="" />
           </div>
-          <div class="how__des__sub">
+          <div class="how__des__sub mobile__sub">
             If you continue the habit, the habitower is complete!
           </div>
         </div>
         <div class="how__des__column">
           <div class="how__des__img">
-            <img src="https://ifh.cc/g/BDBN9a.png" alt="" />
+            <img src="./img/ruin.png" alt="" />
           </div>
-          <div class="how__des__sub">
-            Once the habitower is complete, you can recoup your habit revenue
-            forever!
+          <div class="how__des__sub mobile__sub">
+            Make a habit to the end so it doesn't break!
           </div>
         </div>
       </div>
@@ -76,8 +95,8 @@
 
     <div class="entire__dis__wrap">
       <div class="entire__left wow fadeInLeft">
-        <div class="entire__title">Grow your own town</div>
-        <div class="entire__sub">
+        <div class="entire__title mobile__title">Grow your own town</div>
+        <div class="entire__sub mobile__sub">
           Achieve daily and turn difficult goals into fantastic town.
         </div>
       </div>
@@ -88,7 +107,7 @@
       </div>
     </div>
 
-    <div class="more__dis__wrap">
+    <!-- <div class="more__dis__wrap">
       <div class="more__title wow fadeInUp">
         Challenge more perfect habits, Get more ornate tower!
       </div>
@@ -135,11 +154,12 @@
       <a
         href="https://www.freepik.com/vectors/city"
         class="building__license wow fadeInUp"
-        >City vector created by freepik - www.freepik.com</a
       >
-    </div>
+        City vector created by freepik - www.freepik.com
+      </a>
+    </div> -->
 
-    <div class="explore__dis__wrap">
+    <!-- <div class="explore__dis__wrap">
       <div class="explore__title wow fadeInUp">
         Explore the habitown of people around the world!
       </div>
@@ -176,9 +196,9 @@
           <img src="https://ifh.cc/g/744nAv.png" alt="" />
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="habitat__dis__wrap">
+    <!-- <div class="habitat__dis__wrap">
       <div class="habitat__title wow fadeInUp">
         As your habit, Donate for building real homes for people who need a home
       </div>
@@ -204,9 +224,9 @@
           alt=""
         />
       </div>
-    </div>
+    </div> -->
 
-    <div class="review__dis__wrap">
+    <!-- <div class="review__dis__wrap">
       <div class="review__title wow fadeInUp">Real User Reviews</div>
 
       <div class="slider wow fadeInUp">
@@ -279,11 +299,16 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </body>
   <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script
+    data-cfasync="false"
+    type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
+  ></script>
   <script src="js/wow.min.js"></script>
   <script>
-    new WOW().init();
+    new WOW().init()
   </script>
 </html>
