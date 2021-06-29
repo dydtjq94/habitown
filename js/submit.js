@@ -1,8 +1,13 @@
-// const firstDisSubmit = document.querySelector(`.first__dis__submit`)
-// const applyingMent = document.querySelector(`.applying`)
-// const handleSubmit = (e) => {
-//   console.log(e.target)
-//   applyingMent.classList.remove('none')
-// }
+const iosBtn = document.querySelector(`.ios__img`)
+const googleBtn = document.querySelector(`.google__img`)
 
-// firstDisSubmit.addEventListener('click', handleSubmit)
+const init = () => {
+  iosBtn.addEventListener('click', () => {
+    location.href = `https://mailchi.mp/2dc9b736f196/habitown`
+  })
+  googleBtn.addEventListener('click', () => {
+    location.href = `https://mailchi.mp/2dc9b736f196/habitown`
+  })
+}
+
+init()
