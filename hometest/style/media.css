@@ -1,0 +1,29 @@
+@media screen and (max-width: 499px) {
+  .total__display__wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__wrap {
+    width: 100%;
+  }
+  .header__wrap {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .total__display__wrap {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__wrap {
+    width: 500px;
+  }
+  .header__wrap {
+    width: 500px;
+  }
+}

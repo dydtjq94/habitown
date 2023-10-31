@@ -1,0 +1,17 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'mainDisplay.css';
+@import 'loading.css';
+@import 'result.css';
+@import 'footer.css';
+@import 'media.css';
+
+.none {
+  display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

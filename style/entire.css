@@ -35,4 +35,7 @@
 
 .entire__img img {
   width: 100%;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

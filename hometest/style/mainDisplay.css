@@ -1,0 +1,85 @@
+.main__display__wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__display__wrap {
+}
+
+.form__display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal__text {
+  font-size: 9px;
+  color: rgb(161, 161, 161);
+  font-weight: 400;
+}
+
+.form__img__wrap {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form__img__wrap img {
+  width: 100%;
+}
+
+.form__title {
+  margin-bottom: 20px;
+}
+
+.form__wrap {
+  margin-bottom: 8px;
+}
+.form {
+  display: flex;
+  /* align-items: center; */
+}
+
+.first__dis__input__wrap {
+  display: flex;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.dis__input__wrap {
+  width: 100%;
+  border: 1px solid #51b8de;
+  border-radius: 4px 0 0 4px;
+  background-color: white;
+}
+
+.first__dis__input {
+  margin-top: 2px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.submit__btn__wrap {
+  border-radius: 0px;
+  background-color: #51b8de;
+  padding: 13px;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.first__dis__submit {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.first__dis__submit:hover {
+  cursor: pointer;
+}
